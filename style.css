@@ -1,0 +1,351 @@
+
+header{
+    margin:0;
+    border:0;
+}
+body{
+    margin:0;
+    border:0;
+}
+
+#header1 {
+    width: 100%;
+    height: 275px;
+    background-image: url(imgages/test2.PNG);
+   
+    color: black;
+    background-repeat: no-repeat;
+}
+
+footer{
+    bottom: 0;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+#aside1 {
+    float: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Abel', sans-serif;
+    padding-right: 1px;
+    background-color: #95a5#34495ea6;
+    box-sizing: border-box;
+    width: 15%;
+}
+
+@media screen and (max-width: 1024px){
+  
+#aside1 {
+    float: none;
+    width: auto;
+    text-align: center;
+    margin:20px 0 0 0;
+}
+#header1{
+    background-size: 100% 100%;
+    width: 70%;
+    height: 400px;
+    background-image:url(imgages/test3.PNG);
+    padding: 0px;
+    background-repeat: no-repeat;
+    margin: 0 15% 0 15%;
+    
+}
+#image{
+    margin-left: 10%;
+}
+#img2{
+    margin-left: 30%;
+}
+#p4h{
+    margin-top: 70%;
+}
+}
+
+
+
+
+ul.topnav {
+    width: 100%;
+    font-family: Trebuchet MS, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #80A1D4;
+}
+
+ul.topnav a {box-sizing: border-box;
+    width: calc(100%/4);
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav a:hover:not(.active) {
+    background-color: #2c42c2;
+    }
+
+#milieu{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 35px;
+    
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titre{
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#align{
+    text-align: center;
+}
+
+aside{
+    background-color: none;
+    margin-right:70%;
+    padding-top: 8px;
+}
+#image{
+    margin-left: 43%;
+}
+
+li{
+    font-size: 27px;
+}
+
+#right{
+    float:right;
+    margin-right: 50%;
+    background-color: #3c6382;
+    margin-top: 3%;
+    
+}
+#body1{
+    background-image:url(./imgages/leaf.jpg);
+    background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#body2{
+    background-image:url("https://wallpaperaccess.com/full/1251284.jpg");
+    background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#body3{
+    background-image:url("https://images7.alphacoders.com/108/thumb-1920-1083976.jpg");
+    background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#body4{
+    background-image:url("data:image/jpeg;base64,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");
+    background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+#para{
+    margin-left: 20%;
+    margin-right: 30%;
+    background-color: rgba(180, 111, 66, 0.664);
+    font-size: 25px;
+    color: #F5F5DC;
+    border-radius: 20px;
+    padding: 3px;
+    margin-top: 2%;
+
+}
+
+#placement{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.para{
+
+    margin-left: 20%;
+    margin-right: 30%;
+    background-color: rgba(180, 111, 66, 0.664);
+    font-size: 25px;
+    color: #F5F5DC;
+    margin-top: 2%;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+#poli{
+   padding: 15px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 35px;
+}
+
+#imge{
+    float: left;
+}
+#imge2{
+    float:right;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    background-color: black;
+    color : whitesmoke;
+}
+
+#left{
+    float: left;
+    margin-left: 30%;
+    background-color: #3c6382;
+    margin-top: 3%;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+#right{
+    float: right;
+    margin-right: 30%;
+    margin-left: 15%;
+    border-radius: 20px;
+}
+
+#p4h{
+    margin-top: 1200px;
+}
+
+
+
+#aside2 {
+    position : fixed;
+	bottom : 32.5%;
+	left : 4%;
+    animation: fadeIn 5s infinite alternate;
+}
+#aside3 {
+    position : fixed;
+	bottom : 10%;
+	left : 2%;
+    animation: fadeIn 5s infinite alternate;
+}
+.btn{
+    position : fixed;
+	bottom : 30px;
+	right : 30px;
+    cursor: pointer;
+}
+.icone{
+    width: 75px;
+}
+
+@import "compass/css3";
+
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+}
+
+#colo {
+  animation: fadeIn 2.5s infinite alternate;
+}
+
+#s1{
+    text-align: center;
+    list-style-type: none;
+    font-size: 50px;
+    background-color: rgba(45, 197, 45, 0.918);
+    border-radius: 20px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#s2{
+    text-align: center;
+    list-style-type: none;
+    font-size: 50px;
+    background-color: rgba(197, 45, 45, 0.918);
+    border-radius: 20px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.ger{
+    background-color: #3c6382;
+    border-radius: 20px;
+    opacity: 90%;
+    color: honeydew;
+    font-size: 35px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px  ;
+    margin-top: 3%;
+}
+
+
+.graph{
+    font-size: 35px;
+}
+
+.graph2{
+    font-size: 25px;
+}
+
+
+.back{
+    text-align: center;
+    background-image:url("https://images5.alphacoders.com/764/thumb-1920-764519.jpg");
+    background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+
+.page1{
+    color: whitesmoke;
+}
+#rond{
+    border-radius: 120px;
+}
+#toui{
+    color: black;
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#lop{
+    margin-top: 30%;
+}
+
+#sup{
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 1%;
+    padding: 10px;
+}
+#imt{
+    margin-top: 3%;
+}
+#rond3{
+    border-radius: 9px;
+}
+
+.white{
+    color: whitesmoke;
+}
